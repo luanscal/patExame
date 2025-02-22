@@ -3,7 +3,7 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load models once
-nlp = spacy.load("en_core_sci_lg", disable=["tagger", "parser", "ner"])
+nlp = spacy.load("en_core_sci_lg", disable=["tagger", "ner"])
 embedder = SentenceTransformer("all-mpnet-base-v2")
 
 def extract_features(text):
