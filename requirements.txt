@@ -4,7 +4,5 @@ spacy==3.7.4
 scikit-learn==1.4.0
 textract==1.6.5
 python-docx==0.8.11
-- python-dateutil==2.9.0.post0
-+ python-dateutil==2.9.0  # Latest stable version
-+ six==1.16.0  # Fixes "ModuleNotFoundError: No module named 'six.moves'"
-- six==1.12.0
+python-dateutil==2.9.0  # Latest stable version
+six==1.16.0  # Fixes "ModuleNotFoundError: No module named 'six.moves'"
