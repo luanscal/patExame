@@ -1,10 +1,11 @@
 PyPDF2
 sentence-transformers
 spacy
+scispacy
+en-core-sci-sm
 scikit-learn
 textract
 python-docx
 python-dateutil
 six
-torch==1.13.1
-https://github.com/explosion/spacy-models/releases/download/en_core_sci_sm-3.0.0/en_core_sci_sm-3.0.0.tar.gz
+torch
