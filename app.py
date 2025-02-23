@@ -7,6 +7,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 st.set_page_config(page_title="Patentability AI Tool", layout="wide")
 st.title("🔍 Patentability Assessment Tool")
 
+nest_asyncio.apply()
+
 # File Uploaders
 invention_file = st.file_uploader("Upload Invention Description", 
                                  type=["pdf", "txt", "docx"])
