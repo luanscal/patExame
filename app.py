@@ -38,7 +38,8 @@ if invention_file and prior_art_files:
         st.metric("Average Novelty Score", 
                  f"{100 - sum(similarities)/len(similarities):.1f}%")
         st.write("### Key Technical Features")
-        st.write(invention_features[:10])  # Show top 10 features
+        st.text("Top Features: " + ", ".join(invention_features[:10]))
+
 
     with col2:
         st.write("### Top Prior Art Matches")

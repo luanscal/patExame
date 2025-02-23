@@ -17,7 +17,7 @@ def get_embeddings(text):
 def extract_features(text):
     """Extract technical terms using spaCy"""
     doc = nlp(text)
-    return [chunk.text for chunk in doc.noun_chunks]
+    return [str(chunk.text) for chunk in doc.noun_chunks]
 
 def get_embeddings(text):
     """Convert text to embeddings"""
