@@ -1,6 +1,12 @@
+# requirements.txt
+--extra-index-url https://download.pytorch.org/whl/cpu
+--find-links https://github.com/explosion/wheels/releases/download/blis-0.7.11/blis-0.7.11-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+
+# requirements.txt
+blis==0.7.9 --only-binary=blis
+
 PyPDF2
 sentence-transformers
-bliss
 spacy
 scispacy
 https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_lg-0.5.4.tar.gz
@@ -10,3 +16,5 @@ python-docx
 python-dateutil
 six
 torch
+streamlit
+scikit-learn
