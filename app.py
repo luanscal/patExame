@@ -1,6 +1,7 @@
 import streamlit as st
 from utils.document_processor import parse_uploaded_file
 from utils.nlp_models import extract_features, get_embeddings, check_compliance
+from sklearn.metrics.pairwise import cosine_similarity
 
 # Configure Streamlit
 st.set_page_config(page_title="Patentability AI Tool", layout="wide")

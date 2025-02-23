@@ -8,4 +8,4 @@ textract
 python-docx
 python-dateutil
 six
-torch
+torch==1.13.1
